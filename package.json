@@ -1,0 +1,29 @@
+{
+  "name": "cc.fovea.purchase.demo",
+  "version": "0.0.1",
+  "displayName": "PurchaseDemo",
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-file": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-zip": {},
+      "cordova-plugin-file-transfer": {},
+      "cc.fovea.cordova.purchase": {
+        "BILLING_KEY": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsiV67iIpCvFmwpfGFJyVNYfNqpG3o2pU7xrho0fipLOxLemntjKdHI+TTbL79VSowteBrxQCW+27GrfT+21Lu49lDRHJPBATbJLa/1XDld2RVs1/Ym9IkdkgDVKJ5cJNvjpl1Qux+8TegAvst6dUD1W/aMpu/kNcQy7Kfw3nZJ0b99oAejv8Em2roQOYdBEJyZLLV84RpHud1FSWp7dV//zhpxhj12Oi6XsfbD36Q2Xtil+3HlmSenTpFbDVC67Hd2d+uDhq8jtg/YxwtiRxYqTRClzzvPpZbZX3V2AGAdHToiiHg5dXlU3DzFa/Om3Tb88fBOYn4gV/yEiaXOXBRwIDAQAB"
+      }
+    }
+  },
+  "dependencies": {
+    "cordova-android": "~6.3.0",
+    "cordova-plugin-whitelist": "1.0",
+    "cordova-plugin-file": "2",
+    "cordova-plugin-device": "1",
+    "cordova-plugin-zip": "3",
+    "cordova-plugin-file-transfer": "1",
+    "cc.fovea.cordova.purchase": "~7.1.0"
+  }
+}

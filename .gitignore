@@ -1,4 +1,6 @@
-
+build.json
+my-release-key.keystore
+node_modules/
 platforms/
 plugins/
 /.idea
